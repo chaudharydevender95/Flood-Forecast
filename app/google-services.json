@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "191879228673",
+    "firebase_url": "https://flood-plane-map.firebaseio.com",
+    "project_id": "flood-plane-map",
+    "storage_bucket": "flood-plane-map.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:191879228673:android:ef510bab1ade1ac4",
+        "android_client_info": {
+          "package_name": "com.example.lenovo.zoom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "191879228673-fa7397bqeir441pm7n2iojivnpfi785p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lenovo.zoom",
+            "certificate_hash": "3556139caeda177ec9dcb66cea436f2a165a220c"
+          }
+        },
+        {
+          "client_id": "191879228673-18t0c2etj28ikst9cuml8oo3ejitt7j8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAD9-zdY0rLK0lfdCLz89_JX46LbiSWNOM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "191879228673-18t0c2etj28ikst9cuml8oo3ejitt7j8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="3dp"
+    android:orientation="vertical"
+    tools:context="com.example.lenovo.zoom.zoomActivity">
+
+
+    <com.example.lenovo.zoom.ZoomageView
+        android:id="@+id/demoView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        app:zoomage_restrictBounds="false"
+        app:zoomage_animateOnReset="true"
+        app:zoomage_autoResetMode="UNDER"
+        app:zoomage_autoCenter="true"
+        app:zoomage_zoomable="true"
+        app:zoomage_translatable="true"
+        app:zoomage_minScale="0.6"
+        app:zoomage_maxScale="8"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <Button
+            android:id="@+id/minButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MIN"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"/>
+
+        <TextView
+            android:id="@+id/viewText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="MAX"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/maxButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:text="MAX"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            />
+    </RelativeLayout>
+
+    <include
+        android:id="@+id/optionsView"
+        android:visibility="gone"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        layout="@layout/zoomage_options"/>
+
+</LinearLayout>

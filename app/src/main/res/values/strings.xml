@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">FPM</string>
+    <string name="country_prompt">Choose a country</string>
+
+    <string-array name="state_arrays">
+        <item>Chattisgarh</item>
+    </string-array>
+    <string-array name="basin_array">
+        <item>Durg</item>
+    </string-array>
+</resources>
